@@ -307,8 +307,6 @@ footer {
 }
 
 .top-item {
-  display: grid;
-  grid-template-columns: 72px 1fr;
   align-items: center;
   gap: 16px;
   background: #eef4ff;
@@ -318,7 +316,7 @@ footer {
 }
 
 .top-item h2 {
-  color: var(--blue-dark);
+  color: #071b42;
   margin-bottom: 5px;
   font-size: clamp(20px, 2vw, 24px);
 }
